@@ -17,7 +17,7 @@
 // write your code here
 
 
-
+var person = ("Katie", 17)
 
 
 
@@ -29,7 +29,7 @@
 // write your code here
 
 
-
+print("\(person.0) is \(person.1) years old")
 
 
 
@@ -41,7 +41,7 @@
 // write your code here
 
 
-
+person.1 = 18
 
 
 
@@ -52,7 +52,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.1) birthday, \(person.0)!")
 
 
 
@@ -64,7 +64,7 @@
  */
 // write your code here
 
-
+var anotherPerson = (name: "Jack", age: 19)
 
 
 
@@ -76,7 +76,7 @@
  */
 // write your code here
 
-
+print("\(anotherPerson.0) is \(anotherPerson.1) years old")
 
 
 
@@ -87,7 +87,7 @@
  */
 // write your code here
 
-
+anotherPerson.1 = 20
 
 
 
@@ -98,7 +98,7 @@
  */
 // write your code here
 
-
+print("Happy \(anotherPerson.1) birthday, \(anotherPerson.0)")
 
 
 
@@ -109,6 +109,7 @@
  ### 9. Create a _constant_ tuple called `human`, with named fields for `name` and `age`.
  */
 // write your code here
+let human = (name: "Harrison", age: 73)
 
 
 
@@ -120,7 +121,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+//human.1 = 74
 
 
 
